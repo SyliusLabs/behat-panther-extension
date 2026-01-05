@@ -17,6 +17,9 @@ jobs:
       matrix:
         php: [ '8.2', '8.3', '8.4' ]
         symfony: [ 'symfony6', 'symfony7' ]
+        include:
+          - php: '8.4'
+            symfony: 'symfony8'
       fail-fast: false
     env:
       MATRIX_PHP: ${{ matrix.php }}
