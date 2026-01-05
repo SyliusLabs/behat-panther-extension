@@ -30,6 +30,8 @@ jobs:
             symfony: 'symfony7'
           - php: '8.4'
             symfony: 'symfony7'
+          - php: '8.4'
+            symfony: 'symfony8'
       fail-fast: false
     env:
       MATRIX_PHP: ${{ matrix.php }}
