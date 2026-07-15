@@ -20,6 +20,10 @@ jobs:
         include:
           - php: '8.4'
             symfony: 'symfony8'
+          - php: '8.3'
+            symfony: 'symfony7_behat4'
+          - php: '8.4'
+            symfony: 'symfony7_behat4'
       fail-fast: false
     env:
       MATRIX_PHP: ${{ matrix.php }}
