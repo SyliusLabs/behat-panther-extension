@@ -27,7 +27,7 @@
         "php": ">=7.2",
         "behat/behat": "^3.0.5",
         "robertfausk/mink-panther-driver": "^1.0",
-        "friends-of-behat/mink-extension": "^2.3.0"
+        "friends-of-behat/mink-extension": "^2.3"
     },
     "require-dev": {
         "g1a/composer-test-scenarios": "^3.0",
