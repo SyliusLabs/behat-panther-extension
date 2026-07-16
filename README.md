@@ -1,27 +1,29 @@
 # BehatPantherExtension
 
-[![Latest Stable Version](https://poser.pugx.org/robertfausk/behat-panther-extension/v/stable.svg)](https://packagist.org/packages/robertfausk/behat-panther-extension)
-[![Latest Unstable Version](https://poser.pugx.org/robertfausk/behat-panther-extension/v/unstable.svg)](https://packagist.org/packages/robertfausk/behat-panther-extension)
-[![Total Downloads](https://poser.pugx.org/robertfausk/behat-panther-extension/downloads.svg)](https://packagist.org/packages/robertfausk/behat-panther-extension)
-[![Monhtly Downloads](https://img.shields.io/packagist/dm/robertfausk/behat-panther-extension?style=flat&color=blue)](https://img.shields.io/packagist/dm/robertfausk/behat-panther-extension)
-[![Daily Downloads](https://img.shields.io/packagist/dd/robertfausk/behat-panther-extension?style=flat&color=blue)](https://img.shields.io/packagist/dm/robertfausk/behat-panther-extension)
-[![Tests](https://github.com/robertfausk/behat-panther-extension/actions/workflows/ci.yml/badge.svg)](https://github.com/robertfausk/behat-panther-extension/actions/workflows/ci.yml)
-[![Scrutinizer Quality Score](https://scrutinizer-ci.com/g/robertfausk/behat-panther-extension/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/robertfausk/behat-panther-extension/)
-[![Code Coverage](https://scrutinizer-ci.com/g/robertfausk/behat-panther-extension/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/robertfausk/behat-panther-extension/)
+[![Latest Stable Version](https://poser.pugx.org/sylius-labs/behat-panther-extension/v/stable.svg)](https://packagist.org/packages/sylius-labs/behat-panther-extension)
+[![Latest Unstable Version](https://poser.pugx.org/sylius-labs/behat-panther-extension/v/unstable.svg)](https://packagist.org/packages/sylius-labs/behat-panther-extension)
+[![Total Downloads](https://poser.pugx.org/sylius-labs/behat-panther-extension/downloads.svg)](https://packagist.org/packages/sylius-labs/behat-panther-extension)
+[![Monhtly Downloads](https://img.shields.io/packagist/dm/sylius-labs/behat-panther-extension?style=flat&color=blue)](https://img.shields.io/packagist/dm/sylius-labs/behat-panther-extension)
+[![Daily Downloads](https://img.shields.io/packagist/dd/sylius-labs/behat-panther-extension?style=flat&color=blue)](https://img.shields.io/packagist/dm/sylius-labs/behat-panther-extension)
+[![Tests](https://github.com/SyliusLabs/behat-panther-extension/actions/workflows/ci.yml/badge.svg)](https://github.com/SyliusLabs/behat-panther-extension/actions/workflows/ci.yml)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat)](LICENSE)
-[![PHP Version Require](http://poser.pugx.org/robertfausk/behat-panther-extension/require/php)](https://packagist.org/packages/robertfausk/behat-panther-extension)
-[![Open Issues](https://img.shields.io/github/issues-raw/robertfausk/behat-panther-extension?style=flat)](https://github.com/robertfausk/behat-panther-extension/issues)
-[![Closed Issues](https://img.shields.io/github/issues-closed-raw/robertfausk/behat-panther-extension?style=flat)](https://github.com/robertfausk/behat-panther-extension/issues?q=is%3Aissue+is%3Aclosed)
-[![Contributors](https://img.shields.io/github/contributors/robertfausk/behat-panther-extension?style=flat)](https://github.com/robertfausk/behat-panther-extension/graphs/contributors)
+[![PHP Version Require](http://poser.pugx.org/sylius-labs/behat-panther-extension/require/php)](https://packagist.org/packages/sylius-labs/behat-panther-extension)
+[![Open Issues](https://img.shields.io/github/issues-raw/SyliusLabs/behat-panther-extension?style=flat)](https://github.com/SyliusLabs/behat-panther-extension/issues)
+[![Closed Issues](https://img.shields.io/github/issues-closed-raw/SyliusLabs/behat-panther-extension?style=flat)](https://github.com/SyliusLabs/behat-panther-extension/issues?q=is%3Aissue+is%3Aclosed)
+[![Contributors](https://img.shields.io/github/contributors/SyliusLabs/behat-panther-extension?style=flat)](https://github.com/SyliusLabs/behat-panther-extension/graphs/contributors)
 ![Contributors](https://img.shields.io/maintenance/yes/2027?style=flat)
-[![Dependents](http://poser.pugx.org/robertfausk/behat-panther-extension/dependents)](https://packagist.org/packages/robertfausk/behat-panther-extension/dependents)
+[![Dependents](http://poser.pugx.org/sylius-labs/behat-panther-extension/dependents)](https://packagist.org/packages/sylius-labs/behat-panther-extension/dependents)
 
 Symfony Panther extension for Behat
+
+> **Note:** This is a fork maintained by [SyliusLabs](https://github.com/SyliusLabs).
+> The original package is [`robertfausk/behat-panther-extension`](https://github.com/robertfausk/behat-panther-extension)
+> ([on Packagist](https://packagist.org/packages/robertfausk/behat-panther-extension)) by Robert Freigang.
 
 ## Install
 
 ```BASH
-composer require --dev robertfausk/behat-panther-extension
+composer require --dev sylius-labs/behat-panther-extension
 ```
 
 ## Usage example
@@ -194,7 +196,7 @@ private function spin(\Closure $closure, ?int $tries = 25): ?NodeElement
                                
 ### How to upgrade?
 
- Have a look at [CHANGELOG](CHANGELOG.md) for detailed information.
+ Have a look at the [GitHub Releases](https://github.com/SyliusLabs/behat-panther-extension/releases) for detailed information.
 
 ## How to contribute?
 
@@ -238,6 +240,7 @@ See also https://github.com/g1a/composer-test-scenarios for more information abo
 ## Credits
 
 Created by Robert Freigang [robertfausk](https://github.com/robertfausk).
+This fork is maintained by [SyliusLabs](https://github.com/SyliusLabs).
 
 BehatPantherExtension is built on top of [symfony/panther](https://github.com/symfony/panther) and [robertfausk/mink-panther-driver](https://github.com/robertfausk/mink-panther-driver).
 It is for usage with [Behat and Mink](http://behat.org/en/latest/cookbooks/integrating_symfony2_with_behat.html#initialising-behat). 
