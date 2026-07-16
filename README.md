@@ -18,7 +18,7 @@ Symfony Panther extension for Behat
 
 > **Note:** This is a fork maintained by [SyliusLabs](https://github.com/SyliusLabs).
 > The original package is [`robertfausk/behat-panther-extension`](https://github.com/robertfausk/behat-panther-extension)
-> ([on Packagist](https://packagist.org/packages/robertfausk/behat-panther-extension)) by Robert Freigang.
+> ([on Packagist](https://packagist.org/packages/robertfausk/behat-panther-extension)).
 
 ## Install
 
