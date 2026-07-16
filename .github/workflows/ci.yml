@@ -17,6 +17,16 @@ jobs:
       matrix:
         php: [ '8.2', '8.3', '8.4' ]
         symfony: [ 'symfony6', 'symfony7' ]
+        include:
+          - php: '8.4'
+            symfony: 'symfony8'
+            behat_config: 'tests/Behat/behat.php'
+          - php: '8.3'
+            symfony: 'symfony7_behat4'
+            behat_config: 'tests/Behat/behat.php'
+          - php: '8.4'
+            symfony: 'symfony7_behat4'
+            behat_config: 'tests/Behat/behat.php'
       fail-fast: false
     env:
       MATRIX_PHP: ${{ matrix.php }}
@@ -45,7 +55,7 @@ jobs:
           vendor/bin/phpunit
       - name: Run behat tests
         run: |
-          vendor/bin/behat --config=tests/Behat/behat.yml
+          vendor/bin/behat --config=${{ matrix.behat_config || 'tests/Behat/behat.yml' }}
       - name: Archive logs artifacts
         if: ${{ failure() }}
         uses: actions/upload-artifact@v4

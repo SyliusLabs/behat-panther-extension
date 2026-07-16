@@ -22,12 +22,14 @@
             "email": "robertfreigang@gmx.de"
         }
     ],
+    "minimum-stability": "alpha",
+    "prefer-stable": true,
     "require": {
         "symfony/config": "^7.4",
-        "php": "^8.2",
-        "behat/behat": "^3.0.5",
+        "php": ">=8.3",
+        "behat/behat": "^4.0",
         "robertfausk/mink-panther-driver": "^1.0",
-        "friends-of-behat/mink-extension": "^2.3"
+        "friends-of-behat/mink-extension": "^3.0"
     },
     "require-dev": {
         "g1a/composer-test-scenarios": "^3.0",
