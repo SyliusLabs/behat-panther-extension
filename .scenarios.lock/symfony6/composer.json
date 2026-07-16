@@ -23,16 +23,16 @@
         }
     ],
     "require": {
-        "symfony/config": "^6.0",
-        "php": ">=7.2",
+        "symfony/config": "^6.4",
+        "php": "^8.2",
         "behat/behat": "^3.0.5",
         "robertfausk/mink-panther-driver": "^1.0",
         "friends-of-behat/mink-extension": "^2.3.0"
     },
     "require-dev": {
         "g1a/composer-test-scenarios": "^3.0",
-        "matthiasnoback/symfony-config-test": "^4.1|^5.1",
-        "phpunit/phpunit": "~7.5|~9.3",
+        "matthiasnoback/symfony-config-test": "^5.1",
+        "phpunit/phpunit": "~9.3",
         "roave/security-advisories": "dev-master"
     },
     "autoload": {
