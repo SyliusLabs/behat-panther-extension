@@ -235,6 +235,9 @@ docker-compose run php8.4 vendor/bin/behat --config=tests/Behat/behat.yml
 docker-compose run php8.4 vendor/bin/phpunit
 ```
 
+The Behat 4 scenarios (`symfony7_behat4`, `symfony8`) require a PHP configuration file, so use
+`--config=tests/Behat/behat.php` instead of `--config=tests/Behat/behat.yml` for those.
+
 See also https://github.com/g1a/composer-test-scenarios for more information about scenarios.
 
 ## Credits
